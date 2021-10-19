@@ -150,31 +150,6 @@ active.carousel_but {
 	font-weight: 500;
 	color: #222222;
 }
-/*.hero_slider {
-	position: relative;
-	top:0;
-	left: 0;
-	width: 48vw;
-	
-}
 
-.hero-slider * {
-	margin-left: 0;
-	margin-right: 0;
-}
-.hero-slider img {
-	max-height: 100%;
-	width: 100%;
-	}*/
-	@media screen and (max-width: 991px) {
-		.hero_slider {
-			position: relative;
-			top:0;
-			left: 0;
-			width: 48vw;
-			margin-left: 0;
-			margin-right: 0;
-		}
-	}
 .contacts__ a img {visibility: hidden;}
 .contacts__ a:hover img {visibility: visible;}
