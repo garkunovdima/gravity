@@ -114,8 +114,6 @@ button {border:none;
 	padding: 0;
 	margin: 0;
 }
-.contacts__ a img {visibility: hidden;}
-.contacts__ a:hover img {visibility: visible;}
 
 .carousel_but {
 	background-image: url(../img/slider_radio.svg);
@@ -150,7 +148,7 @@ active.carousel_but {
 .font22 {
 	font-size: 22px;
 	font-weight: 500;
-	color: #d9d9d9;
+	color: #222222;
 }
 /*.hero_slider {
 	position: relative;
@@ -178,3 +176,5 @@ active.carousel_but {
 			margin-right: 0;
 		}
 	}
+.contacts__ a img {visibility: hidden;}
+.contacts__ a:hover img {visibility: visible;}
