@@ -91,7 +91,6 @@ label {
 	top: 0;
 	left: 0;
 	background-color: rgba(255, 255, 255, 0.5);
-
 }
 #menu a {
 	color: #000000;
@@ -103,18 +102,15 @@ input[type="checkbox"]:checked + div[id="menu"] {
 input[type="checkbox"]:checked ~ div[id="menu"] {
 	display:none; 
 }
-
 header input {display: none ;}
 .services input {display: none;}
 .services label {cursor: pointer; margin: 0; padding: 0}
 .features {background: url(../img/features_bg_back.jpg) no-repeat 0 0;}
-
 .carousel-indicators { display: block; position: static; }
 button {border:none;
 	padding: 0;
 	margin: 0;
 }
-
 .carousel_but {
 	background-image: url(../img/slider_radio.svg);
 }
@@ -150,10 +146,8 @@ active.carousel_but {
 	font-weight: 500;
 	color: #222222;
 }
-
 .contacts__ a img {visibility: hidden;}
 .contacts__ a:hover img {visibility: visible;}
-
 .hero_video .play {
 	visibility: visible; 
 	z-index: 300;
@@ -178,16 +172,18 @@ active.carousel_but {
 }
 #hero_video_bg {
 		width: 100%;
+box-shadow:none;
 	}
 @media screen and (min-width: 992px) {
 	.hero_video {
 		position: absolute;
 		transform:translate(-50%, -50%);
-		top: 65%;
+		top: 70%;
 		left: 85%;
 		z-index: 200;
 	}
 	#hero_video_bg {
 		position: static;
-		width: auto;
+		width: auto;		
+		box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
 }
