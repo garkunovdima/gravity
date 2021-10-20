@@ -153,3 +153,41 @@ active.carousel_but {
 
 .contacts__ a img {visibility: hidden;}
 .contacts__ a:hover img {visibility: visible;}
+
+.hero_video .play {
+	visibility: visible; 
+	z-index: 300;
+}
+#play_but {
+	visibility: hidden;
+}
+#play_but {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	z-index: 200;
+}
+#hero_video_bg:hover ~ #play_but {
+	visibility:visible;
+}
+.hero_video {
+	position: static;
+	display: block;
+	width: 100%;
+}
+#hero_video_bg {
+		width: 100%;
+	}
+@media screen and (min-width: 992px) {
+	.hero_video {
+		position: absolute;
+		transform:translate(-50%, -50%);
+		top: 65%;
+		left: 85%;
+		z-index: 200;
+	}
+	#hero_video_bg {
+		position: static;
+		width: auto;
+}
