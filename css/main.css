@@ -179,8 +179,9 @@ box-shadow:none;
 		position: absolute;
 		transform:translate(-50%, -50%);
 		top: 70%;
-		left: 85%;
+		left: 50%;
 		z-index: 200;
+		max-width: 20vw;
 	}
 	#hero_video_bg {
 		position: static;
